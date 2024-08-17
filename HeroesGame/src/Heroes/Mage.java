@@ -7,7 +7,7 @@ public class Mage extends Hero{
         setHealth(60);
     }
     public void attackEnemy(Enemy enemy) {
-        System.out.println("Archer "+getName()+" attack enemy with "+ getMaxDamage()+" hp!");
+        System.out.println("Mage "+getName()+" attack enemy with "+ getMaxDamage()+" hp!");
         enemy.takeDamage(getMaxDamage());
     }
 }

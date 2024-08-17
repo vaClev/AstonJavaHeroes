@@ -7,7 +7,7 @@ public class Warrior extends Hero{
         setHealth(100);
     }
     public void attackEnemy(Enemy enemy) {
-        System.out.println("Archer "+getName()+" attack enemy with "+ getMaxDamage()+" hp!");
+        System.out.println("Warrior "+getName()+" attack enemy with "+ getMaxDamage()+" hp!");
         enemy.takeDamage(getMaxDamage());
     }
 }
